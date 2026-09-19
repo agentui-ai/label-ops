@@ -1,0 +1,42 @@
+{
+  "name": "label-ops",
+  "version": "0.1.0",
+  "description": "Print labels and receipts that actually scan — ZPL for Zebra label printers, ESC/POS for 58mm Bluetooth thermal printers, and GS1/Code128/Code39 check digits cross-validated against an independent encoder. Ships a deterministic benchmark.",
+  "author": {
+    "name": "AgentUI",
+    "url": "https://www.agentui.ai/"
+  },
+  "homepage": "https://github.com/agentui-ai/label-ops",
+  "repository": "https://github.com/agentui-ai/label-ops",
+  "license": "MIT",
+  "keywords": [
+    "zpl",
+    "zebra",
+    "escpos",
+    "thermal-printer",
+    "barcode",
+    "ean13",
+    "gs1",
+    "label",
+    "receipt",
+    "web-bluetooth"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Label Ops",
+    "shortDescription": "Labels that scan, receipts that read.",
+    "longDescription": "Label and receipt printers are fire-and-forget: neither answers, and both accept every byte you send whether or not anything prints. This skill covers the nine failures that reach an operator instead of a log — check-digit weight anchoring, Code 128 position base, ITF-14 padding, dots-per-mm on a 300 dpi printer, unescaped ZPL control characters, fields past the label edge, and UTF-8 sent to a code-page printer — with a ZPL builder that validates before the socket opens, an ESC/POS builder that encodes properly, and a benchmark whose barcode half is cross-validated against bwip-js.",
+    "developerName": "AgentUI",
+    "category": "Productivity",
+    "capabilities": [],
+    "websiteURL": "https://github.com/agentui-ai/label-ops",
+    "brandColor": "#1E293B",
+    "defaultPrompt": [
+      "Build a ZPL shipping label for this product and check it before printing",
+      "This barcode is not scanning — find out why"
+    ],
+    "composerIcon": "./assets/logo.svg",
+    "logo": "./assets/logo.png",
+    "screenshots": []
+  }
+}

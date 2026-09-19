@@ -1,0 +1,19 @@
+{
+  "name": "label-ops",
+  "interface": {
+    "displayName": "Label Ops"
+  },
+  "plugins": [
+    {
+      "name": "label-ops",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

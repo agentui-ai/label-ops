@@ -1,0 +1,6 @@
+^XA
+^PW800
+^LL400
+^FO40,40^A0N,32,32^FDAC^DC Widget^FS
+^FO900,40^FDoff the edge^FS
+^XZ

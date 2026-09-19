@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192" fill="none" role="img" aria-label="Label Ops">
+  <title>Label Ops</title>
+  <rect width="192" height="192" fill="#fff"/>
+  <rect x="24" y="44" width="144" height="104" rx="10" fill="#1E293B"/>
+  <!-- bars: one of them is the wrong width, which is the whole job -->
+  <g fill="#FFFFFF">
+    <rect x="40" y="62" width="6"  height="52"/>
+    <rect x="52" y="62" width="3"  height="52"/>
+    <rect x="61" y="62" width="8"  height="52"/>
+    <rect x="75" y="62" width="3"  height="52"/>
+    <rect x="84" y="62" width="6"  height="52"/>
+    <rect x="96" y="62" width="3"  height="52"/>
+    <rect x="105" y="62" width="8" height="52"/>
+    <rect x="119" y="62" width="3" height="52"/>
+    <rect x="128" y="62" width="6" height="52"/>
+  </g>
+  <rect x="140" y="62" width="12" height="52" fill="#F4B740"/>
+  <rect x="40" y="124" width="112" height="8" rx="4" fill="#FFFFFF" opacity="0.4"/>
+</svg>

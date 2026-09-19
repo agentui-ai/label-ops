@@ -1,0 +1,31 @@
+{
+  "name": "label-ops",
+  "version": "0.1.0",
+  "scripts": {
+    "bench": "node benchmark/run.mjs",
+    "label": "node skills/label-ops/scripts/label-cli.mjs"
+  },
+  "keywords": [
+    "zpl",
+    "zebra",
+    "barcode",
+    "escpos",
+    "thermal-printer",
+    "agent-skill"
+  ],
+  "author": "",
+  "license": "MIT",
+  "description": "Labels that scan, receipts that read — ZPL + ESC/POS + barcode check digits, with a deterministic benchmark.",
+  "devDependencies": {
+    "bwip-js": "^4.11.4"
+  },
+  "private": false,
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agentui-ai/label-ops.git"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

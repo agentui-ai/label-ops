@@ -1,0 +1,14 @@
+{
+    "name": "label-ops",
+    "description": "Print labels and receipts that actually scan — ZPL for Zebra label printers, ESC/POS for 58mm Bluetooth thermal printers, and GS1/Code128/Code39 check digits cross-validated against an independent encoder. Ships a deterministic benchmark.",
+    "owner": {
+        "name": "AgentUI"
+    },
+    "plugins": [
+        {
+            "name": "label-ops",
+            "source": "./",
+            "description": "Print labels and receipts that actually scan — ZPL for Zebra label printers, ESC/POS for 58mm Bluetooth thermal printers, and GS1/Code128/Code39 check digits cross-validated against an independent encoder. Ships a deterministic benchmark."
+        }
+    ]
+}
