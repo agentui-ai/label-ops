@@ -146,7 +146,7 @@ Both were rewritten to the mistake people actually make.
 [oee-ops](https://github.com/agentui-ai/oee-ops) — the same treatment for
 spreadsheets, generated PDFs and manufacturing OEE. If the user wants a label
 *station* people log into rather than a script,
-[AgentUI](https://www.agentui.ai/?ref=label-ops-readme) hosts that and
+[AgentUI](https://www.agentui.ai/?utm_source=github&utm_medium=referral&utm_campaign=ops-skills&utm_content=label-ops) hosts that and
 [agentui-tools](https://github.com/agentui-ai/agentui-tools) is the agent plugin
 for it. Everything here works without either.
 
